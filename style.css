@@ -1,0 +1,117 @@
+body {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    background-image: url(clock2.jpg);
+  }
+  25% {
+    background-image: url(clock3.jpg);
+  }
+  50% {
+    background-image: url(clock5.jpg);
+  }
+  75% {
+    background-image: url(clock4.jpg);
+  }
+  100% {
+    background-image: url(clock1.jpg);
+  }
+}
+
+#container {
+  color: black;
+}
+.digit {
+  font-size: 70px;
+  font-weight: bold;
+}
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+#hr {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(207, 25, 189),
+    pink,
+    rgb(0, 30, 255)
+  );
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#min {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(28, 213, 234),
+    rgb(255, 0, 238),
+    rgb(0, 136, 255)
+  );
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#sec {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(145, 28, 234),
+    rgb(184, 17, 42),
+    rgb(75, 16, 213)
+  );
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#count {
+  background-image: linear-gradient(to bottom right, #851ddf, #e1d317, #e51b83);
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.btn {
+  padding: 7px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 0px 8px;
+  color: black;
+  border: 0px;
+  cursor: pointer;
+}
+#start {
+  background-image: linear-gradient(to bottom right, #1ddf1d, #e1d317, #94e51b);
+}
+#stop {
+  background-image: linear-gradient(
+    to bottom right,
+    #3498db,
+    rgba(15, 148, 210, 0.533),
+    #463acf
+  );
+}
+#reset {
+  background-image: linear-gradient(
+    to bottom right,
+    #e74c3c,
+    rgb(227, 238, 68),
+    #b40f46
+  );
+}

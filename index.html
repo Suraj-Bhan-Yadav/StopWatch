@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h2 id="sw">Stop Watch</h2>  -->
+    <!-- main container  -->
+    <div id="container">
+      <!-- IT'S TIMER CONTAINER -->
+      <div id="time">
+        <!-- SPAN USE BECAUSE IT'S INLINE IN NATURE -->
+        <span class="digit" id="hr">00</span>
+        <span class="text">Hr</span>
+        <span class="digit" id="min">00</span>
+        <span class="text">Min</span>
+        <span class="digit" id="sec">00</span>
+        <span class="text">Sec</span>
+        <!-- COUNTER IS RUN 100 TIMES TO SET THE SECOND TO ONE -->
+        <span class="digit" id="count">00</span>
+      </div>
+      <!-- IT'S BUTTON CONTAINER -->
+      <div id="btn-container">
+        <button class="btn" id="start" onclick="start()">Start</button>
+        <button class="btn" id="stop" onclick="stop()">Stop</button>
+        <button class="btn" id="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

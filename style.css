@@ -28,8 +28,21 @@ body {
   }
 }
 
-#container {
+.container {
   color: black;
+  position: relative;
+}
+
+.container p {
+  margin: 0;
+  position: absolute;
+  top: -170%;
+  left: 50%;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .digit {
   font-size: 70px;

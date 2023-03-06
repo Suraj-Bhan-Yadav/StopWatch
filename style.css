@@ -141,20 +141,20 @@ body {
     margin-top: 50px;
   }
   .btn {
-    padding: 7px 15px;
+    padding: 7px 15px !important;
     border-radius: 10px;
-    font-size: 15px;
-    margin: 0px 2px;
+    font-size: 15px !important;
+    margin: 0px 2px !important;
     color: black;
     border: 0px;
     cursor: pointer;
   }
   .digit {
-    font-size: 40px;
+    font-size: 30px !important;
     font-weight: bold;
   }
   .text {
-    font-size: 10px;
+    font-size: 10px !important;
     font-weight: bold;
     color: white;
   }

@@ -128,3 +128,46 @@ body {
     #b40f46
   );
 }
+
+@media only screen and (max-width: 572px) {
+  body {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .btn {
+    padding: 7px 25px;
+    border-radius: 10px;
+    font-size: 6px;
+    margin: 0px 8px;
+    color: black;
+    border: 0px;
+    cursor: pointer;
+  }
+  .digit {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  .container p {
+    margin: 0;
+    position: absolute;
+    top: -220%;
+    left: 50%;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+

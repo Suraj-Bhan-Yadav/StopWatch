@@ -161,9 +161,9 @@ body {
   .container p {
     margin: 0;
     position: absolute;
-    top: -230%;
+    top: -230% !important;
     left: 50%;
-    font-size: large;
+    font-size: large !important;
     font-weight: bold;
     color: white;
     -ms-transform: translate(-50%, -50%);
